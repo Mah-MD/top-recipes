@@ -1,74 +1,16 @@
-
-/* styles.css */
-
-/* General body styling */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+.subsection.header {
+  color:black;
 }
 
-/* Header styling */
-h1 {
-  text-align: center;
-  color: #2c3e50;
-  background-color: #ecf0f1;
-  padding: 20px;
-  border-bottom: 2px solid #bdc3c7;
+.subsection.body {
+  color:blue;
 }
 
-/* Link styling */
-a {
-  text-decoration: none;
-  color: #2980b9;
-  font-weight: bold;
-}
 
-a:hover {
-  color: #e74c3c;
-  text-decoration: underline;
-}
-
-/* Image styling */
-img {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #bdc3c7;
-  border-radius: 5px;
-}
-
-/* Paragraph styling */
-p {
-  text-align: justify;
-  margin: 20px;
-}
-
-/* List styling */
-ul, ol {
-  margin: 20px;
-  padding-left: 40px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-/* Subheadings styling */
-h2, h3 {
-  color: #2c3e50;
-  margin: 20px;
-  text-align: left;
-  border-bottom: 1px solid #bdc3c7;
-  padding-bottom: 5px;
-}
-
-/* Back link styling */
-p:last-of-type {
+.return {
   text-align: center;
   margin-top: 40px;
+  font-size: 50px;
 }
+
+
